@@ -1,0 +1,4 @@
+br/com/restful/DemoApplication.class
+br/edu/devmedia/repository/NotaRepository.class
+br/edu/devmedia/model/Nota.class
+br/edu/devmedia/resource/NotasResource.class

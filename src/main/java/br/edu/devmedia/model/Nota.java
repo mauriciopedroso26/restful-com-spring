@@ -14,7 +14,7 @@ public class Nota {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "ID_NOTA")
-    private int id;
+    private Long id;
 
     @Column(name = "TITULO")
     private String titulo;
@@ -23,11 +23,11 @@ public class Nota {
     private String descricao;
 
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
